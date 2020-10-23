@@ -40,12 +40,12 @@ trait AutowireModule extends CrossScalaModule with PublishModule{
   def publishVersion = "0.3.2"
   def pomSettings = PomSettings(
     description = artifactName(),
-    organization = "com.lihaoyi",
-    url = "https://github.com/lihaoyi/autowire",
+    organization = "com.github.lolgab",
+    url = "https://github.com/lolgab/autowire",
     licenses = Seq(License.MIT),
     scm = SCM(
-      "git://github.com/lihaoyi/autowire.git",
-      "scm:git://github.com/lihaoyi/autowire.git"
+      "git://github.com/lolgab/autowire.git",
+      "scm:git://github.com/lolgab/autowire.git"
     ),
     developers = Seq(
       Developer("lihaoyi", "Li Haoyi","https://github.com/lihaoyi")
